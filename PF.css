@@ -1,15 +1,16 @@
 form {
-      border: 5px black solid;
-    width: 500px;
-    height: 400px;
-   padding: 20px 10px 10px 10px;
+    border: 5px black solid;
+    width: 800px;
+    height: auto;
+    margin-top: 1%;
+    margin-bottom: 0;
+    padding: 10px 10px 10px 10px;
 }
 
 .color {
-    
     border: 2px black solid;   
     padding: 10px 10px 10px 10px;
-    
+    width: auto;    
 }
 
 input:focus, textarea:focus {
@@ -17,15 +18,45 @@ input:focus, textarea:focus {
   border-radius: 5px;
   outline      : none;
 }
+
 input {
     height: 2.5em;
     vertical-align: middle;
 }
-.eli{
-    color: red;
+
+.nombre {
+    float: left;
+    padding: 10px;
+    font-size: 1em;
+        
 }
 
-            
+.eli{
+    padding: 10px;
+    border: 0;
+    background: red;
+    font-size: 1em;
+    color: #FFF;
+    bottom:5px;
+    right:10px;
+    border-radius: 5px;
+    float: right;
+}
+
+.sub {
+    padding: 10px;
+    border: 0;
+    background: blue;
+    font-size: 1em;
+    color: #FFF;
+    border-radius: 5px;
+    display:inline-block
+}
+
+.nom {
+    border: 2px black solid;
+    
+}
 
 
     
